@@ -1,0 +1,113 @@
+.container{
+    background-color: #d8dcdf;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Small>.box>h3{
+    padding-left:140px;
+}
+
+.Medium>.box>h3{
+    padding-left:110px;
+}
+
+.Large>.box>h3{
+    padding-left:140px;
+}
+
+h4{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box{
+    background-color: #d8dcdf;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.Small>p{
+    font-size: 20px;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.Medium>p{
+    font-size: 20px;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.Large>p{
+    font-size: 20px;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.col-md-9>p{
+    font-size: 32px;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    margin-left: 300px;
+}
+
+.col-md-9>.btn{
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.Small>.btn{
+    font-size: 20px;
+}
+
+.Medium>.btn{
+    font-size: 20px;
+}
+
+.Large>.btn{
+    font-size: 20px;
+}
+
+.Pricing{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+    margin-top: 20px;
+    margin-left: 107px;
+    margin-right: 107px;
+}
+
+.Small{
+    display:flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.Medium{
+    display:flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.Large{
+    display:flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    align-items: center;
+    border-radius: 20px;
+}
